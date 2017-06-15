@@ -1,0 +1,77 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+
+}
+
+.picture{
+    width: 100%;
+}
+
+.customerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+
+    
+}
+
+smallContainer{
+    flex: 1;
+    text-align: center;
+    min-width: 244px;
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: thin solid #b0dcc2;
+    margin: 10px;
+    width: 100%;
+    
+
+}
+
+.email{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #cbcbcb;
+    margin: 10px;
+
+}
+
+.street{
+    font-size: 12px;
+    color: #cbcbcb;
+}
+
+.city{
+    font-size: 12px;
+    color: #cbcbcb;
+}
+
+.cell{
+    font-size: 15px;
+    color: #cbcbcb;
+
+}
+
+.dob{
+    color: #b0dcc2;
+    margin: 20px;
+    text-shadow: 0 0 6px rgba( 0, 0, 0, 0.5);
+ 
+
+}
